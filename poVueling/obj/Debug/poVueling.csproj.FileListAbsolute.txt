@@ -1,6 +1,0 @@
-C:\Users\JYEP\source\repos\poVueling\poVueling\bin\Debug\poVueling.dll
-C:\Users\JYEP\source\repos\poVueling\poVueling\bin\Debug\poVueling.pdb
-C:\Users\JYEP\source\repos\poVueling\poVueling\obj\Debug\poVueling.csprojAssemblyReference.cache
-C:\Users\JYEP\source\repos\poVueling\poVueling\obj\Debug\poVueling.csproj.CoreCompileInputs.cache
-C:\Users\JYEP\source\repos\poVueling\poVueling\obj\Debug\poVueling.dll
-C:\Users\JYEP\source\repos\poVueling\poVueling\obj\Debug\poVueling.pdb
