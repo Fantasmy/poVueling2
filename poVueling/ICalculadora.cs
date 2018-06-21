@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace poVueling
 {
-    public interface POOVueling
+    public interface ICalculadora
     {
         int Suma(int num1, int num2);
         int Resta(int num1, int num2);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace poVueling
 {
-    public class Calculadora : POOVueling, ICloneable
+    public class Calculadora : ICalculadora, ICloneable
     {
         public object Clone()
         {

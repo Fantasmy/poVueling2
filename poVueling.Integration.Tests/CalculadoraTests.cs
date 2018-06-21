@@ -11,34 +11,46 @@ namespace poVueling.Tests
     [TestClass()]
     public class CalculadoraTests
     {
-        [TestMethod()]
-        public void CloneTest()
+        ICalculadora iCalculadora = new Calculadora();
+
+        [DataRow(4, 2, 2)]
+        [DataRow(9, 3, 3)]
+        [DataTestMethod]
+        public void DivisionTest(int num1, int num2, int resultado)
         {
-            Assert.Fail();
+            Assert.IsTrue(iCalculadora.Division(num1, num2) ==
+                resultado);
         }
 
-        [TestMethod()]
-        public void DivisionTest()
+
+        [DataRow(4, 2, 8)]
+        [DataRow(6, 3, 18)]
+        [DataTestMethod]
+        public void MultiplicacionTest(int num1, int num2, int resultado)
         {
-            Assert.Fail();
+            Assert.IsTrue(iCalculadora.Multiplicacion(num1, num2) ==
+                resultado);
         }
 
-        [TestMethod()]
-        public void MultiplicacionTest()
+
+        [DataRow(4, 2, 2)]
+        [DataRow(9, 3, 6)]
+        [DataTestMethod]
+        public void RestaTest(int num1, int num2, int resultado)
         {
-            Assert.Fail();
+            Assert.IsTrue(iCalculadora.Resta(num1, num2) ==
+                resultado);
         }
 
-        [TestMethod()]
-        public void RestaTest()
+
+        [DataRow(2, 2, 4)]
+        [DataRow(9, 3, 12)]
+        [DataTestMethod]
+        public void SumaTest(int num1, int num2, int resultado)
         {
-            Assert.Fail();
+            Assert.IsTrue(iCalculadora.Suma(num1, num2) ==
+                resultado);
         }
 
-        [TestMethod()]
-        public void SumaTest()
-        {
-            Assert.Fail();
-        }
     }
 }
